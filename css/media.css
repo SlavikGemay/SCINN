@@ -1,6 +1,191 @@
 @media only screen and (max-width: 769px) {
-    
+    .beauty img {
+        width: 100%;
+        height: 100%;
+    }
+    .beauty p:first-of-type {
+        font-size: 50px;
+    }
+    .beauty p:nth-of-type(2) {
+        font-size: 50px;
+    }
+    .beauty p:last-of-type {
+        font-size: 74px;
+        bottom: 45px;
+        left: 198px;
+    }
+    .beauty a {
+        display: flex;
+        position: absolute;
+        max-width: 128px;
+        bottom: -16px;
+        left: 50px;
+    }
+    .beauty a:hover{
+        border: 1px solid #dacec6;
+        border-radius: 10px;
+        background-color: gainsboro;
+        font-size: 12px;
+    }
+    .scincare .container {
+        padding: 0 50px;
+    }
+    .scincare a:first-of-type {
+        top: 60px;
+        left: 72px;
+    }
+    .scincare a:nth-of-type(3) {
+        right: 204px;
+    }
+    .scincare a:nth-of-type(4) {
+        top: 246px;
+        right: 13px;
+    }
+    .scincare a:nth-of-type(2) {
+        bottom: 79px;
+        left: 73px;
+    }
+    .scincare a:nth-of-type(5) {
+        bottom: 116px;
+        right: 73px;
+    }
+    .picture img {
+        width: 100%;
+    }
+    .innovation img {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .innovation .container {
+        display: block;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .face .container {
+        display: block;
+    }
+    .face .face_left img {
+        width: 518px;
+    }
+    .blog .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog .blog_skinn {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .socials .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 36px 69px;
+    }
+    .socials .socials_skinn {
+        width: 250px;
+    }
 }
-@media only screen and (max-width: 428px) {
 
+@media only screen and (max-width: 428px){
+    header .container {
+        padding: 0;
+    }
+    .nav-but-wrap {
+        position: relative;
+        display: inline-block;
+        float: right;
+        padding-left: 0;
+        padding-top: 15px;
+        margin-top: 0px;
+        transition: all 0.3s ease-out;
+        z-index: 100;
+    }
+    .beauty{
+        margin-bottom: 10px;
+    }
+    .beauty .container {
+        padding: 0;
+    }
+    .beauty .container .beauty_view {
+        padding-left: 0;
+    }
+    .beauty p:first-of-type {
+        top: 86px;
+        left: 30px;
+    }
+    .beauty p:nth-of-type(2) {
+        top: 174px;
+        left: 30px;
+    }
+    .beauty p:last-of-type {
+        font-size: 50px;
+        bottom: 141px;
+        left: 281px;
+    }
+    .beauty a {
+        max-width: 128px;
+        bottom: 0;
+        left: 34px;
+        font-size: 10px;
+    }
+    .scincare a:first-of-type, .scincare a:nth-of-type(2),.scincare a:nth-of-type(3), .scincare a:nth-of-type(4), .scincare a:nth-of-type(5){
+        position: static;
+    }
+    .scincare img{
+            width: 100%;
+            height: 100%;
+    }
+    .scincare p:first-of-type{
+        padding-top: 10px;
+    }
+    .scincare a:last-of-type{
+        margin-bottom: 50px;
+    }
+    .innovation img{
+        height: 100%;
+    }
+    .innovation .container{
+        margin-bottom: 50px;
+    }
+    .logo .container{
+        margin-bottom: 50px;
+    }
+    .face .container{
+        margin-bottom: 30px;
+    }
+    .blog .container{
+        padding: 0 30px;
+        margin-bottom: 85px;
+    }
+    .blog h3{
+        margin-bottom: 30px;
+    }
+    .blog .blog_skinn article{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog img{
+        margin-bottom: 10px;
+    }
+    .blog .blog_skinn article .blog_skinn_text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog .blog_skinn article .blog_skinn_text .blog_skinn_left, .blog .blog_skinn article .blog_skinn_text .blog_skinn_right{
+        padding-right: 0;
+    }
+    .blog .blog_skinn article .blog_skinn_text .blog_skinn_left, .blog .blog_skinn article .blog_skinn_text .blog_skinn_right{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .socials_skinn a{
+        display: inline-flex;
+        text-align: center;
+    }
+    .socials .socials_skinn .socials_link{
+        text-align: center;
+    }
 }

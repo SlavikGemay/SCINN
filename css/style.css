@@ -618,3 +618,6 @@ header .cart_items {
       border-bottom: 3px solid transparent; }
       .socials .socials_here ul a:hover {
         border-bottom: 3px solid black; }
+
+.nav-but-wrap {
+  display: none; }
