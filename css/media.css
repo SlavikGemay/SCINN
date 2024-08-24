@@ -89,7 +89,7 @@
     }
 }
 
-@media only screen and (max-width: 428px){
+@media only screen and (max-width: 432px){
     header .container {
         padding: 0;
     }
@@ -152,9 +152,15 @@
     }
     .logo .container{
         margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
     }
     .face .container{
         margin-bottom: 30px;
+        img{
+            width: 100%;
+        }
     }
     .blog .container{
         padding: 0 30px;
@@ -181,8 +187,8 @@
         margin-bottom: 25px;
         text-align: center;
     }
-    .socials_skinn a{
-        display: inline-flex;
+    .socials .socials_skinn a{
+        display: block;
         text-align: center;
     }
     .socials .socials_skinn .socials_link{
