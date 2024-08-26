@@ -83,6 +83,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 36px 69px;
+        margin-bottom: 0;
     }
     .socials .socials_skinn {
         width: 250px;
@@ -99,7 +100,147 @@
         float: right;
         padding-left: 0;
         padding-top: 15px;
-        margin-top: 0px;
+        margin-top: 0;
+        transition: all 0.3s ease-out;
+        z-index: 100;
+    }
+    .beauty{
+        margin-bottom: 30px;
+    }
+    .beauty .container {
+        padding: 0;
+    }
+    .beauty .container .beauty_view {
+        padding-left: 0;
+    }
+    .beauty p:first-of-type {
+        top: 86px;
+        left: 30px;
+    }
+    .beauty p:nth-of-type(2) {
+        top: 174px;
+        left: 30px;
+    }
+    .beauty p:last-of-type {
+        font-size: 50px;
+        bottom: 141px;
+        left: 281px;
+    }
+    .beauty a {
+        max-width: 128px;
+        bottom: 0;
+        left: 34px;
+        font-size: 10px;
+    }
+    .scincare .container {
+        padding: 0 25px;
+    }
+    .scincare a:first-of-type, .scincare a:nth-of-type(2),.scincare a:nth-of-type(3), .scincare a:nth-of-type(4), .scincare a:nth-of-type(5){
+        position: static;
+    }
+    .scincare p:nth-of-type(3) {
+        font-size: 126px;
+        top: -9px;
+        left: 0;
+    }
+    .scincare img{
+            width: 100%;
+            height: 100%;
+    }
+    .scincare p:first-of-type{
+        padding-top: 10px;
+    }
+
+    .scincare a:last-of-type{
+        margin-bottom: 50px;
+        margin-top: 12px;
+    }
+    .innovation img{
+        height: 100%;
+    }
+    .innovation .container{
+        margin-bottom: 50px;
+        padding: 0 25px;
+    }
+    .innovation h2 {
+        left: -28px;
+        margin-bottom: -29px;
+    }
+    .innovation p:first-of-type {
+        font-size: 59px;
+    }
+    .innovation p:last-of-type {
+        font-size: 25px;
+        padding: 0;
+        margin-bottom: 33px;
+    }
+    .logo .container{
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    .face .container{
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+            height: 420px;
+        }
+    }
+    .blog .container{
+        padding: 0 30px;
+        margin-bottom: 85px;
+    }
+    .blog h3{
+        margin-bottom: 30px;
+    }
+    .blog .blog_skinn article{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog img{
+        margin-bottom: 10px;
+    }
+    .blog .blog_skinn article .blog_skinn_text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog .blog_skinn article .blog_skinn_text .blog_skinn_left, .blog .blog_skinn article .blog_skinn_text .blog_skinn_right{
+        padding-right: 0;
+    }
+    .blog .blog_skinn article .blog_skinn_text .blog_skinn_left, .blog .blog_skinn article .blog_skinn_text .blog_skinn_right{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .socials .container {
+        margin-bottom: 0;
+    }
+    .socials .socials_skinn a{
+        display: block;
+        text-align: center;
+    }
+    .socials .socials_skinn .socials_link, .socials_pages, .socials_contact{
+        text-align: center;
+    }
+    .socials_here{
+        text-align: center;
+        ul{
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 390px){
+    header .container {
+        padding: 0;
+    }
+    .nav-but-wrap {
+        position: relative;
+        display: inline-block;
+        float: right;
+        padding-left: 0;
+        padding-top: 15px;
+        margin-top: 0;
         transition: all 0.3s ease-out;
         z-index: 100;
     }
@@ -131,17 +272,26 @@
         left: 34px;
         font-size: 10px;
     }
+    .scincare .container{
+        padding: 0 25px;
+    }
+    .scincare p:nth-of-type(3) {
+        font-size: 119px;
+        top: -5px;
+        left: 1px;
+    }
     .scincare a:first-of-type, .scincare a:nth-of-type(2),.scincare a:nth-of-type(3), .scincare a:nth-of-type(4), .scincare a:nth-of-type(5){
         position: static;
     }
     .scincare img{
-            width: 100%;
-            height: 100%;
+        width: 100%;
+        height: 100%;
     }
     .scincare p:first-of-type{
         padding-top: 10px;
     }
     .scincare a:last-of-type{
+        margin-top: 10px;
         margin-bottom: 50px;
     }
     .innovation img{
@@ -149,6 +299,19 @@
     }
     .innovation .container{
         margin-bottom: 50px;
+        padding: 0 25px;
+    }
+    .innovation h2 {
+        left: -10px;
+        margin-bottom: -29px;
+    }
+    .innovation p:first-of-type {
+        font-size: 59px;
+    }
+    .innovation p:last-of-type {
+        font-size: 22px;
+        padding: 0;
+        margin-bottom: 33px;
     }
     .logo .container{
         margin-bottom: 50px;
@@ -160,6 +323,7 @@
         margin-bottom: 30px;
         img{
             width: 100%;
+            height: 390px;
         }
     }
     .blog .container{
@@ -187,11 +351,20 @@
         margin-bottom: 25px;
         text-align: center;
     }
+    .socials .container {
+        margin-bottom: 0;
+    }
     .socials .socials_skinn a{
         display: block;
         text-align: center;
     }
-    .socials .socials_skinn .socials_link{
+    .socials .socials_skinn .socials_link, .socials_pages, .socials_contact{
         text-align: center;
+    }
+    .socials_here{
+        text-align: center;
+        ul{
+            justify-content: center;
+        }
     }
 }
